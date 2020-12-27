@@ -1,0 +1,15 @@
+-------Matrix Calculator-------
+
+This calculator performs operations on 4x4 matrices.
+
+The available commands:
+ - print_mat {matrix} = prints a matrix to the screen
+ - read_mat {matrix}, {list of values separated by commas} = fills {matrix} with the provided values
+ - add_mat {matrix}, {matrix}, {result_matrix} = add the first 2 matrices and store the result in result_matrix
+ - sub_mat {matrix}, {matrix}, {result_matrix} = subtract the second matrix from the first and store the result in result_matrix
+ - mul_mat {matrix}, {matrix}, {result_matrix} = multiply the first 2 matrices and store the result in result_matrix
+ - mul_scalar {matrix}, {scalar}, {result_matrix} = multiply the first matrix by the scalar and store the result in result_matrix
+ - trans_mat {matrix}, {result_matrix} = transpose the first matrix and store the result in result_matrix
+ - stop = exit the calculator
+
+Any matrix should be of the form MAT_X whereas X is in the range of A-F.
